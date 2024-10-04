@@ -279,26 +279,27 @@
            </div>
                </div>
             </div><!--column left-->
+
             <div class="column rigth">
                 <div class="text">Mensagem</div>
-                <form action="#">
+                <form id="form-contato">
                     <div class="fields">
                         <div class="field name">
-                            <input type="text" placeholder="Nome" required>
+                            <input type="text" placeholder="Nome" id="nome" required>
                         </div>
                         <div class="field email">
-                            <input type="email" placeholder="Email" required>
+                            <input type="tel" placeholder="Telefone/Celular" id="telefone" required>
                         </div>
                     </div>
                     <div class="field">
                         <div class="field">
-                            <input type="text" placeholder="Sobrenome" required>
+                            <input type="email" placeholder="Email" id="email" required>
                         </div>
                         <div class="field textarea">
-                           <textarea  cols="30" rows="10" placeholder="Escrever...." required></textarea>
+                           <textarea  cols="30" rows="10" placeholder="Mensagem...." id="mensagem" required></textarea>
                         </div>
                         <div class="button">
-                            <button type="submit">Enviar</button>
+                            <button id="btn-enviar" type="submit">Enviar</button>
                         </div>
                     </div>
                 </form>
@@ -320,6 +321,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-
+    <script src="contato.js"></script>
 </body>
 </html>

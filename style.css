@@ -464,6 +464,25 @@ section .title::after{
     font-size: 25px;
     color: #00804b;
 }
+.redes-sociais {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 40px;
+}
+.redes-sociais a {
+    text-decoration: none;
+    background-color: transparent;
+    color: #00804b;
+}
+.redes-sociais a ion-icon {
+    font-size: 2rem;
+}
+.redes-sociais a:hover {
+    color: #00db80;
+}
+
 .contact .rigth form .fields{
     display: flex;
 }
@@ -517,25 +536,6 @@ section .title::after{
 .contact .rigth form .button button:hover{
     color: #00804b;
     background: none;
-}
-
-.redes-sociais {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    margin-top: 40px;
-}
-.redes-sociais a {
-    text-decoration: none;
-    background-color: transparent;
-    color: #00804b;
-}
-.redes-sociais a ion-icon {
-    font-size: 2rem;
-}
-.redes-sociais a:hover {
-    color: #00db80;
 }
 
 /*  sessão footer  */
